@@ -8,7 +8,13 @@ This is the script (written in ruby) that uploads the test data to the parse bck
 
 Test data is contained in parse_setup_data.rb, the schema is in parse_setup_schema.rb. The file parse_setup_lib.rb is a helper file, do not touch it.
 
-Before using the script, you have to create a file named config.json in the same directory, like this:
+Before using the script, you have to install "parse-ruby-client" by launching
+
+```bash
+gem install parse-ruby-client
+```
+
+and create a file named config.json in the same directory, like this:
 
 ```json
 {
