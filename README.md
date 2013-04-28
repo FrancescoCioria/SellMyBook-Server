@@ -23,7 +23,7 @@ and create a file named config.json in the same directory, like this:
 }
 ```
 
-replace with real keys ;-)
+replace with real keys ;-)   (api_key = REST API key)
 
 then to run the script, simply do:
 
